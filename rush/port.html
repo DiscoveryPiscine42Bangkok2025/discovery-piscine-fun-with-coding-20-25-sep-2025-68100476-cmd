@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Navbar hover effect */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Background Gradient */
+body {
+    background: linear-gradient(to right, #ff69b4, #ff7f50);  /* Gradient from Pink to Orange */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 20px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Home Section */
+#home {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 100px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#about, #contact {
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 60px 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    color: #333;
+    padding: 60px 20px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+
+</style>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+      <ul> <p></p>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
+  <!-- Home Section -->
+  <section id="home">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Showcasing My Work and Projects</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+      <h2>About Me</h2>
+      <img src="IMG_5269.webp" width="500px">
+      <p>Here is a brief description about myself.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+      <h2>My Projects</h2>
+      <div class="card-container">
+          <div class="card">
+              <img src="https://via.placeholder.com/300" alt="Project 1">
+              <h3>Personal Information</h3>
+              <p>Name : Sasirat Sukorawan</p>
+              <p>Age  : 19 years old  </p>
+          </div>
+          <div class="card">
+              <img src="https://via.placeholder.com/300" alt="Project 2">
+              <h3>Work Experience</h3>
+              <p>Part-time AP Clerk At MAZUMA (THAILAND) CO., LTD</p>
+          </div>
+          <div class="card">
+              <img src="https://via.placeholder.com/300" alt="Project 3">
+              <h3>Hobby</h3>
+              <p>PLay game , Sleep</p>
+          </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Phone Number : xxx-xxx-xxxx</p>
+      <p>ID Line : xxxxxxx</p>
+  </section>
+
+</body>
+</html>      </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you want to get in touch, feel free to reach out!</p>
+</section>
+
+</body>
+</html>
